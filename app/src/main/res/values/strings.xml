@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">crossThePond</string>
+    <string name="generate_random_phrase">Generate Random Phrase</string>
+    <string name="usflag">USFlag</string>
+    <string name="ukflag">UKFlag</string>
+    <string name="textview2">textview2</string>
+    <string name="textview3">textview3</string>
+    <string name="_127482_127480"><![CDATA[&#127482;&#127480]]></string>
+    <string name="_127480"><![CDATA[&&#127480]]></string>
+    <string name="_128522"></string>
+    <string name="us">US</string>
+    <string name="uk">UK</string>
+</resources>
