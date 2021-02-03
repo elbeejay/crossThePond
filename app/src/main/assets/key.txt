@@ -24,3 +24,5 @@ Flashlight, Torch
 Trash can, Bin
 Sidewalk, Pavement
 Gas, Petrol
+Shot (vaccine), Jab
+Trash, Rubbish
