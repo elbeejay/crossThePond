@@ -44,11 +44,14 @@ class MainActivity : AppCompatActivity() {
         show_btn.setOnClickListener {
             val intent = Intent(this, About::class.java)
             intent.putExtra("popuptitle", "About")
-            intent.putExtra("popuptext", "Filler text." +
-                    " Need to figure out how to format this better." +
-                    " How about www.google.com links?" +
-                    "\n \n How will these look?" +
-                    "Can I skip a line?")
+            intent.putExtra("popuptext", ("crossThePond grew out of many misunderstandings " +
+                    "between peers from different sides of the Atlantic. Hopefully, this little " +
+                    "app is useful and fun for those who encounter it.\n \nApp design and development " +
+                    "was done by Jayaram Hariharan (@HariharanJay on Twitter), more about him can " +
+                    "be found at his website, " +
+                    "https://jayaramhariharan.com.\n \nTranslations and word ideas were graciously " +
+                    "contributed by " +
+                    "Dr. Gaia Stucky de Quay (@Stuck_onEarth on Twitter) and Hamish Mitchell."))
             intent.putExtra("popupbtn", "Back")
             intent.putExtra("darkstatusbar", false)
             startActivity(intent)
